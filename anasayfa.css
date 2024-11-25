@@ -1,0 +1,524 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter',sans-serif;
+}
+
+.sidebar
+{
+    background-color:silver;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    z-index: 1;
+    padding-top: 20px;
+    border-style: groove;
+    border-radius: 10px;
+    
+    
+}
+
+.profil img
+{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+}
+
+.profil
+{
+    text-align: center;
+}
+
+.name 
+{
+    color: #fff;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.menu ul 
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu
+{
+    margin-top: 55px;
+}
+
+.menu ul li a 
+{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 15px 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.menu ul li a i
+{
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.menu ul li.active a , .menu ul li a:hover
+{
+    color: #fff;
+    background-color: rosybrown;
+    transition: all 500ms;
+    border-radius: 5px;
+
+
+}
+.anasayfa h2
+{
+    text-align: center;
+    font-style: oblique;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.anasayfa p
+{
+    font-size: 15px;
+    color: #555;
+}
+
+
+.anasayfa {
+    background: #F4F4F9;
+    margin-left: 20%;  /* Sol kenar boşluğu, sağa yaslamak için */
+    margin-right: 0%; /* Sağ kenar boşluğu, sağa yaslamak için */
+    padding: 4px 20px;
+    color: gray;
+    display: inline-block;
+    border-style: groove;
+    font-weight: bolder;
+    text-align: justify;  /* Yazıyı her iki yana yaslar */
+    width: auto; /* Genişlik otomatik olacak, içerikle uyumlu */
+    min-height: 100px; /* Minimum yükseklik, içeriğin küçük olmasını engeller */
+    box-sizing: border-box; /* Border ve padding'leri dahil eder, sayfa düzeni bozulmaz */
+}
+
+
+
+.card {
+    
+    position: relative;
+    z-index: 1;
+    width: 340px;
+    height: 290px;
+    background-color:linen;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 350px;
+    margin-top: 3%;
+}
+
+.card img {
+    border-radius: 70%;
+    width: 110px;
+    height: 110px;
+    margin-left: 20px;
+}
+
+.card-content {
+    padding: 20px;
+    position: relative;
+    background-color:linen;
+    
+}
+
+.card-content h3 {
+    margin-top: 0;
+}
+
+.card-content p {
+    color:gray;
+    font-size: 16px;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+
+.card-content a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: -5px;
+    text-decoration: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.kart {
+    
+    position: relative;
+    z-index: 1;
+    width: 340px;
+    height: 295px;
+    background-color:linen;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 720px;
+    margin-top: -19%;
+}
+
+.kart img {
+    border-radius: 70%;
+    width: 110px;
+    height: 110px;
+    margin-left: 20px;
+}
+
+.kart-baglantisi {
+    padding: 20px;
+    position: relative;
+    background-color:linen;
+    
+}
+
+.kart-baglantisi h3 {
+    margin-top: 0;
+    
+}
+
+.kart-baglantisi p {
+    color:gray;
+    font-size: 16px;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+
+.kart-baglantisi button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 5px;
+    text-decoration: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.egzersizler {
+    
+    position: relative;
+    z-index: 1;
+    width: 340px;
+    height: 290px;
+    background-color:linen;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 1100px;
+    margin-top: -19%;
+}
+
+.egzersizler img {
+    border-radius: 60%;
+    width: 110px;
+    height: 110px;
+    margin-left: 20px;
+}
+
+.egzersizler-baglantisi{
+    padding: 20px;
+    position: relative;
+    background-color:linen;
+    
+}
+
+.egzersizler-baglantisi h3 {
+    margin-top: 0;
+    
+}
+
+.egzersizler-baglantisi p {
+    color:gray;
+    font-size: 16px;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+
+.egzersizler-baglantisi button{
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 4px;
+}
+
+/* Projeler Bölümü */
+.proje {
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proje:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.proje h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.proje p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Başlık (Projelerim) */
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Responsive düzenleme */
+@media (max-width: 768px) {
+    .proje {
+        padding: 15px;
+    }
+    .proje h3 {
+        font-size: 20px;
+    }
+    .proje p {
+        font-size: 14px;
+    }
+}
+
+/* Yayın (Proje) Alanı için Flexbox Düzeni */
+.yayim-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Ekran küçüldüğünde öğeler alt satıra geçer */
+}
+
+/* Her yayın öğesinin kutu stili */
+.yayim {
+    width: calc(33% - 20px); /* Üç öğe için genişlik */
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.yayim:hover {
+    transform: scale(1.05); /* Hover efekti */
+}
+
+.yayim img {
+    max-width: 100%;  /* Resmin genişliği kapsayıcıya göre ayarlanır */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.yayim h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.yayim p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Sertifikalar kısmı */
+.sertifika-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Sertifikalar kısmı */
+.sertifika-container {
+    display: flex;
+    justify-content: space-between; /* Öğeler arasındaki boşluk */
+    flex-wrap: wrap;                /* Ekran küçüldükçe öğeler alt satıra geçer */
+    gap: 20px;                      /* Öğeler arası boşluk */
+}
+
+.sertifika {
+    flex: 1 1 calc(25% - 20px);     /* 4 öğe için genişlik ayarlandı (100% / 4 - 20px boşluk) */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    text-align: center;             /* Başlık ve metin ortalanacak */
+}
+
+.sertifika:hover {
+    transform: scale(1.05);         /* Hover efekti */
+}
+
+.sertifika img {
+    width: 100%;                    /* Resim genişliği kapsayıcıya göre ayarlanacak */
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.sertifika h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sertifika p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Responsive Düzenlemeler */
+@media (max-width: 1024px) {
+    .sertifika {
+        flex: 1 1 calc(33% - 20px); /* 3 öğe için genişlik ayarlandı */
+    }
+}
+
+@media (max-width: 768px) {
+    .sertifika {
+        flex: 1 1 calc(50% - 20px); /* 2 öğe için genişlik ayarlandı */
+    }
+
+    .sertifika-container {
+        gap: 15px;  /* Mobilde öğeler arasındaki boşluk */
+    }
+
+    .sertifika h3 {
+        font-size: 16px;
+    }
+
+    .sertifika p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sertifika {
+        flex: 1 1 100%;  /* En küçük ekran boyutlarında tekli sıralama */
+    }
+}
+
+
+/* İletişim Bilgisi Kısmı */
+.iletisim-bilgi {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: 750px;
+}
+
+.iletisim-bilgi img {
+    width: 40px; /* Görsel boyutu */
+    height: 40px;
+    border-radius: 50%; /* Daire şeklinde */
+    margin-right: 10px;
+}
+
+.iletisim-bilgi p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.iletisim-bilgi a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.iletisim-bilgi a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Düzenlemeler */
+@media (max-width: 768px) {
+    /* Yayın (Proje) Alanı */
+    .yayim {
+        width: calc(50% - 20px); /* Mobilde 2 öğe sıralanacak */
+    }
+    
+    .sertifika {
+        max-width: 48%; /* Sertifikalarda da 2 öğe sıralanacak */
+    }
+
+    /* İletişim Bilgisi */
+    .iletisim-bilgi {
+        margin-left: auto;
+        margin-right: auto; /* Ortalanmış stil */
+    }
+
+    /* Mobilde daha küçük yazı boyutları */
+    .yayim h3, .sertifika h3 {
+        font-size: 16px;
+    }
+    .yayim p, .sertifika p {
+        font-size: 12px;
+    }
+}
+img {
+    transition: transform 0.3s ease; /* Geçiş animasyonu */
+}
+
+img:hover {
+    transform: scale(1.5); /* Resmi %20 büyüt */
+}
+
+.proje-detay, .proje-amac {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

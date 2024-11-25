@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emre Bolat - Kişisel Web Sayfası</title>
+    <link rel="stylesheet" href="anasayfa.css">
+
+    <script>
+        
+        function showProjects() {
+        document.getElementById("anasayfa").innerHTML = `
+            <h2>Projelerim</h2>
+            <div class="proje">
+                <h3>Teknofest 2242-A - Yapay Zeka Destekli Mobil Kanser Teşhis Uygulaması</h3>
+                <p>Yapay zeka kullanarak mobil bir kanser teşhis uygulaması geliştirdik ve bu proje ile Teknofest 2024 Türkiye finalisti olduk. Proje, kanserin erken teşhisini hızlandırmak ve sağlık hizmetlerine erişimi artırmayı amaçlamaktadır.</p>
+            </div>
+            <div class="proje">
+                <h3>TUBİTAK 2209-A - Meme Kanserine Yakalanma Olasılığını Erken Tespit Etmek ve Farkındalık Yaratmak</h3>
+                <p>Bu projede, meme kanseri riskini erken tespit edebilmek için bir model geliştirdik. Modelin amacı, kadınları meme kanseri konusunda erken uyarılarla bilgilendirerek, hastalığın önlenmesi için farkındalık yaratmaktır. Proje halen devam etmektedir.</p>
+            </div>
+            <div class="proje">
+                <h3>TUBİTAK 2209-A - Çiftçiler için Web Tabanlı Tarım Destek Projesi</h3>
+                <p>Çiftçilere tarımsal faaliyetleri için bir web tabanlı platform sunduk. Bu platform, tarımsal desteklere hızlı erişim sağlamayı ve çiftçilerin daha verimli çalışmasını hedeflemektedir. Bu proje başarıyla tamamlandı.</p>
+            </div>
+        `;
+    }
+
+        function showPublications() {
+            document.getElementById("anasayfa").innerHTML = `
+                <h2>Yayımlarım</h2>
+                <div class="yayim-container">
+                    <div class="yayim">
+                        <img src="makale.jpg" alt="Yayımlanan Makale 1" width="400px">
+                        <h3>Çiftçiler İçin Web Tabanlı Destek Sistemi</h3>
+                        <p>[TUBİTAK 2209-A "Çiftçiler için Web Tabanlı Tarım Destek Projesi" projesi kapsamında]</p>
+                        <p><strong>Yayımlandığı Yer:</strong> Yönetim Bilişim Sistemleri Dergisi, 2023</p>
+                    </div>
+                    <div class="yayim">
+                        <img src="çiftçibildiri.jpg" alt="Yayımlanan Makale 2" width="400px">
+                        <h3>Çiftçiler İçin Web Tabanlı Destek Sistemi</h3>
+                        <p>[TUBİTAK 2209-A "Çiftçiler için Web Tabanlı Tarım Destek Projesi" projesi kapsamında]</p>
+                        <p><strong>Yayımlandığı Yer:</strong> 6. Uluslararası Ankara Multidisipliner Bilimsel Çalışmalar Kongresi, 2023</p>
+                    </div>
+                    <div class="yayim">
+                        <img src="yenilebilir.jpg" alt="Yayımlanan Makale 3" width="400px">
+                        <h3>Türkiye'nin gelecek yıllardaki yenilebilir enerji tahmini</h3>
+                        <p><strong>Yayımlandığı Yer:</strong> 5. Uluslararası Avrasya Bilim, Mühendislik ve Teknoloji Konferansı'nda (EurasianSciEnTech 2024)</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        function showHomePage() {
+            document.getElementById("anasayfa").innerHTML = `
+                <h2>Hoş Geldiniz</h2>
+                <p>Sevgili Ziyaretçi, <br><br> Bilişim Sistemleri ve Teknolojileri Bölümü'nde yüksek motivasyonlu ve araştırmaya hevesli bir öğrenciyim. Tarım, sağlık ve yapay zeka gibi farklı alanlarda önemli ve güncel problemlere çözümler üretmeye odaklanıyorum. <br><br> TUBİTAK destekli projeler üzerinde çalışarak birçok proje tamamladım ve Teknofest'te Türkiye finalisti oldum. <br><br> Sizlere bu web sitesi aracılığıyla projelerimi, eğitim geçmişimi ve deneyimlerimi paylaşmak istiyorum. Burada, güncel projelerime, yazdığım makalelere ve aldığım sertifikalara ulaşabilirsiniz. <br><br> Web sayfamı gezerek, bilgilerimi öğrenebilir ve benimle iletişim kurabilirsiniz.</p>
+            `;
+        }
+
+        function showCertificates() {
+            document.getElementById("anasayfa").innerHTML = `
+                <h2>Sertifikalarım</h2>
+                <div class="sertifika-container">
+                    
+                    <div class="sertifika">
+                        <img src="yenilebilir.jpg" alt="VI. Uluslararası Ankara Multidisipliner Çalışmalar Kongresi">
+                        <h3>VI. Uluslararası Ankara Multidisipliner Çalışmalar Kongresi</h3>
+                        <p>13-14 Ekim 2023 tarihlerinde, "Uluslararası Ankara Multidisipliner Çalışmalar Kongresi"ne sözlü bildiri ile katıldım.</p>
+                    </div>
+                    <div class="sertifika">
+                        <img src="teknofest.jpg" alt="Teknofest 2024">
+                        <h3>Teknofest 2024</h3>
+                        <p>Teknofest Üniversite Öğrencileri Araştırma Proje Yarışmaları (2242-A) Sağlık Kategorisi Türkiye Finalisti oldum.</p>
+                    </div>
+                    <div class="sertifika">
+                        <img src="kanam.jpg" alt="Sivas Cumhuriyet Üniversitesi - KANAM Yarışması">
+                        <h3>Sivas Cumhuriyet Üniversitesi - KANAM Öğrenci Yarışması</h3>
+                        <p>Sivas Cumhuriyet Üniversitesi kapsamında gerçekleşen KANAM öğrenci yarışmasına kabul aldım.</p>
+                    </div>
+                    <div class="sertifika">
+                        <img src="çiftçibildiri.jpg" alt="Çiftçiler İçin Web Tabanlı Destek Sistemi">
+                        <h3>Çiftçiler İçin Web Tabanlı Destek Sistemi</h3>
+                        <p>[TUBİTAK 2209-A "Çiftçiler için Web Tabanlı Tarım Destek Projesi" projesi kapsamında]</p>
+                        <p><strong>Yayımlandığı Yer:</strong> 6. Uluslararası Ankara Multidisipliner Bilimsel Çalışmalar Kongresi, 2023</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        function showContact() {
+    document.getElementById("anasayfa").innerHTML = `
+        <h2>İletişim</h2>
+        </div>
+        <div class="iletisim-bilgi">
+            <img src="mail.png" alt="Profil Resmi">
+            <p><strong>E-posta:</strong> <a href="mailto:bolatemre574@gmail.com">bolatemre574@gmail.com</a></p>
+        </div>
+        <div class="iletisim-bilgi">
+            <img src="linkedin.png" alt="Profil Resmi">
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/emre-bolat-056962261" target="_blank">www.linkedin.com/in/emre-bolat-056962261</a></p>
+        </div>
+    `;
+}
+
+        function showTeknofestDetails() {
+    document.getElementById("anasayfa").innerHTML = `
+        <h2>Teknofest 2024 - Proje Detayları</h2>
+        <div class="proje-detay">
+            <h3>Proje Özeti</h3>
+            <p>
+                Meme kanseri konusunda bilinçlendirmeyi ve sağlıklı yaşam alışkanlıklarına teşvik etmeyi amaçlayan çalışmamızda, meme kanseri risk testi yapan kullanıcılarımıza mobil uygulamamız ve web sitemiz aracılığıyla kansere yakalanma olasılıklarını hesaplayarak bilgilendirme yapılması amaçlanmıştır.
+            </p>
+            <p>
+                Kanser riskini hesaplama kısmında <strong>RandomForestClassification</strong> makine öğrenimi modeli kullanılmıştır. Bu model, Python programlama dili ile oluşturulmuştur. Web uygulamasının front-end kısmında ise HTML ve CSS; back-end kısmında PHP ve MySQL kullanılmıştır. Mobil kısmında ise Dart-Flutter programlama dili tercih edilmiştir.
+            </p>
+            <p>
+                Web sitesi ve mobil uygulamada, kullanıcıların meme kanseri hakkında bilinçlenmesi, destek alması ve motivasyonlarını artırması hedeflenmiştir. Sohbet odası ve kişisel blog özellikleriyle psikolojik destek sağlanmıştır.
+            </p>
+        </div>
+        <div class="proje-amac">
+            <h3>Proje Amacı</h3>
+            <p>
+                Meme kanseri risk testi yapan kullanıcıların kansere yakalanma olasılığını hesaplayarak tahmini bir bilgilendirme yapılması hedeflenmiştir. Hem mobil uygulamada hem de web sitesinde erken tanı ve belirtiler ağırlıklı olarak önemsenmiştir.
+            </p>
+            <p>
+                Chat-bot özelliğiyle kullanıcıların meme kanseri hakkında kolaylıkla cevap bulmaları sağlanmış; sohbet odası ve blog modülleriyle kullanıcıların bilgilendirilmesi ve desteklenmesi amaçlanmıştır.
+            </p>
+        </div>
+        <button onclick="showProjects()">← Geri Dön</button>
+    `;
+}
+function showTubitakDetails() {
+    document.getElementById("anasayfa").innerHTML = `
+        <h2>TÜBİTAK 2209-A Projesi: Çiftçiler İçin Web Tabanlı Tarım Destek Sistemi</h2>
+        <h3>Proje Özeti:</h3>
+        <p>Günümüzde artan nüfus verileri ve tarım alanlarının çeşitli sebeplerle azalmaya başlaması gıda güvenliği ve gıda güvenirliği açısından endişelere neden olmuştur. Bu nedenle, tarımsal üretimin önemi ve verimliliği kavramları önem kazanmıştır. Proje kapsamında, çiftçilere yönelik iki ana modül içeren web tabanlı bir sistem geliştirilmiştir. Birinci modül, çiftçilere ürün yetiştirme, hasat ve ilaçlama süreçlerinde rehberlik edecek; ikinci modül ise çiftçilerin karşılaştıkları sorunları uzmanlara aktararak çözüm önerileri sunacaktır.</p>
+        <h3>Projenin Amaçları ve Hedefleri:</h3>
+        <ul>
+            <li>Tarım ürünlerinin nasıl yetiştirilmesi gerektiğine dair geniş bilgi kılavuzunu çiftçilerle paylaşmak.</li>
+            <li>Çiftçi ve uzmanlar arasında bilgi akışı sağlayarak bitki koruma konusunda bilinçlendirme yapmak.</li>
+            <li>Tarımsal ürünlerde hastalık ve zararlıların neden olduğu kayıpları en aza indirmek.</li>
+            <li>Kaynakların doğru kullanılmasını ve gereksiz ilaç kullanımının önlenmesini sağlamak.</li>
+            <li>Web sitesini geliştirerek, uzun vadede yapay zeka yöntemleri ile otomatik çözüm önerileri sunmak.</li>
+        </ul>
+        <h3>Uzun Vadeli Hedefler:</h3>
+        <p>Tarım sektöründe dijitalleşmeyi artırarak, çiftçilerin sürdürülebilir kazançlı bir üretime ulaşmasına katkı sağlamak ve geliştirilen web sitesini yapay zeka tabanlı hale getirmek hedeflenmektedir.</p>
+        <h2>Meme Kanseri Risk Tespiti ve Farkındalık Yaratma Projesi</h2>
+        <h3>Proje Özeti:</h3>
+        <p>Meme kanseri, meme dokusunda yer alan hücrelerin kontrolsüz bir şekilde çoğalmasıyla oluşan bir hastalıktır. Bu hücreler, meme dokusunun normal hücrelerinden farklıdır ve hızlı bir şekilde büyürler. Meme kanseri, kadınlarda en sık görülen kanser türüdür. Ülkemizde her sekiz kadından biri meme kanserine yakalanma riski taşımaktadır. Bu nedenle, erken tespit ve farkındalık yaratmak büyük bir önem taşımaktadır.</p>
+        <p>Projemiz, kadınlar için geliştirilmiş bir mobil uygulama ile meme kanseri riskini ölçmeyi ve erken teşhisi sağlamayı hedeflemektedir. Uygulama, iki ana modülden oluşacaktır: İlk modül, kadınların meme kanseri risklerini belirleyerek risk seviyelerini gösterecek; ikinci modül ise kanser riski taşıyan ya da kanser hastalığına yakalanan bireylerin yaşam kalitesini yükseltmek için rehberlik yapacaktır.</p>
+        <h3>Projenin Amaçları ve Hedefleri:</h3>
+        <ul>
+            <li>Kadınlar için meme kanseri riski tespiti yapmak ve erken teşhis imkânı sağlamak.</li>
+            <li>Mobil uygulama ile meme kanseri farkındalığını artırmak.</li>
+            <li>Erken tespit sayesinde hastalığın ilerlemesini önlemeyi amaçlamak.</li>
+            <li>Yanlış ilaç kullanımını engelleyerek hastaların sağlığını korumak.</li>
+            <li>Uygulamanın Dart- Flutter ile geliştirilmesi ve yaygınlaştırılması.</li>
+        </ul>
+        <h3>Uzun Vadeli Hedefler:</h3>
+        <p>Erken teşhis ve doğru tedavi uygulamalarıyla kadınların yaşam kalitesini artırmak ve meme kanseri hakkında daha fazla bilgiye ulaşmalarını sağlamaktır.</p>
+    `;
+}
+function goToGitHub() {
+    window.location.href = "https://github.com/Emrebolat55/yapay-zeka-projeleri";
+}
+
+
+    </script>
+</head>
+<body onload="showHomePage()">
+    <div class="sidebar">
+        <div class="profil">
+            <img src="emre_bolat.jpg" alt="Profil Resmi">
+            <div class="name">Emre Bolat <br>Bilişim Sistemleri ve Teknolojileri Bölümü Öğrencisi</div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="active"><a href="javascript:void(0);" onclick="showHomePage()">Anasayfa</a></li>
+                <li><a href="javascript:void(0);" onclick="showProjects()">Projeler</a></li>
+                <li><a href="javascript:void(0);" onclick="showPublications()">Yayımlar</a></li>
+                <li><a href="javascript:void(0);" onclick="showCertificates()">Sertifikalar</a></li>
+                <li><a href="javascript:void(0);" onclick="showContact()">İletişim</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="anasayfa" id="anasayfa">
+        <!-- Anasayfa içeriği yüklenecek -->
+    </div>
+
+    <div class="card">
+        <img src="teknofest.png" alt="Teknofest Resmi">
+        <div class="card-content">
+            <h3>Teknofest 2024</h3>
+            <p>Yapay Zeka Destekli Mobil Kanser Teşhis Uygulaması ile Teknofest 2024 Türkiye Finalisti Oldum.</p>
+            <a href="javascript:void(0);" onclick="showTeknofestDetails()">Daha Fazla...</a>
+        </div>
+    </div>
+    
+
+    <div class="kart">
+        <img src="tübitak.jpg" alt="TUBİTAK Resmi">
+        <div class="kart-baglantisi">
+            <h3>TÜBİTAK 2209-A Projesi</h3>
+            <p>TÜBİTAK 2209-A kapsamında iki tane destek aldım.</p>
+            <button onclick="showTubitakDetails()">Proje Detayları</button>
+        </div>
+    </div>
+    
+
+    <div class="egzersizler">
+        <img src="ai.jpg" alt="Yapay Zeka Resmi">
+        <div class="egzersizler-baglantisi">
+            <h3>Yapay Zeka Çalışmalarım</h3>
+            <p>Yapay zeka projelerimi GitHub üzerinden inceleyebilirsiniz. </p>
+            <button onclick="goToGitHub()">Projelerim</button>
+        </div>
+    </div>
+    
+</body>
+</html>
